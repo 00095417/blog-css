@@ -7,10 +7,9 @@
  function main(){
     var flag = false;
     var itemBtn = document.getElementById('btn-menu');
-    var itemNav = document.getElementsByTagName('body')[1];
+    var itemNav = document.getElementById('respon');
 
     itemBtn.addEventListener('click',() => {
-        console.log("asdasdasd");
         if(flag){
             flag = false;
             itemNav.style.marginLeft = "0%";
